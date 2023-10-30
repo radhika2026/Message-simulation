@@ -19,7 +19,7 @@ def progress_monitor(sent_counts, failed_counts):
         elapsed_time = time.time() - start_time
         if elapsed_time > 0 and total_sent + total_failed > 0:
             average_time_per_message = elapsed_time / (total_sent + total_failed)
-            # print(f"Messages sent: {total_sent}, Messages failed: {total_failed}, Average time per message: {average_time_per_message:.2f} seconds")
+            print(f"Messages sent: {total_sent}, Messages failed: {total_failed}, Average time per message: {average_time_per_message:.2f} seconds")
         
         if total_sent + total_failed >= num_senders * num_messages:
             # All messages have been processed

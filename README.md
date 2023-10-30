@@ -33,9 +33,9 @@ pip install pika
 1. Clone this repository or download the source code.
 2. Open a terminal or command prompt.
 3. Navigate to the project directory.
-4. Execute the `producer.py` script with optional arguments for configuration:
+4. Execute the `main.py` script with optional arguments for configuration:
    ```sh
-   python producer.py --num_senders 5 --num_messages 1000
+   python main.py --num_senders 5 --num_messages 1000
 
 
 The application can be configured using the following command-line arguments:
